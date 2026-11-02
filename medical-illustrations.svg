@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="kidney" viewBox="0 0 180 180">
+    <path d="M92 27c-20-13-43-4-48 18-3 15 5 26 0 39-7 18-26 23-19 47 7 25 37 31 54 14 12-12 8-27 13-38 5 11 1 26 13 38 17 17 47 11 54-14 7-24-12-29-19-47-5-13 3-24 0-39-5-22-28-31-48-18Z"/>
+    <path d="M91 39c-9 12-10 26-9 42m9 0c-13 0-22 8-27 19m27-19c13 0 22 8 27 19M91 82v24"/>
+  </symbol>
+  <symbol id="bladder" viewBox="0 0 180 180">
+    <path d="M65 36c-2 17 1 25 12 31-20 8-31 24-31 45 0 29 18 46 44 46s44-17 44-46c0-21-11-37-31-45 11-6 14-14 12-31"/>
+    <path d="M73 40c8 7 26 7 34 0M90 157v-25m0-31c-10-10-22-12-34-10m34 10c10-10 22-12 34-10"/>
+  </symbol>
+  <symbol id="prostate" viewBox="0 0 180 180">
+    <path d="M56 52c0 25 5 38 17 50m51-50c0 25-5 38-17 50"/>
+    <path d="M73 99c-17 5-24 19-17 34 6 13 19 18 34 11 15 7 28 2 34-11 7-15 0-29-17-34-10-3-24-3-34 0Z"/>
+    <path d="M90 51v36m0 69v9"/>
+  </symbol>
+  <symbol id="consultation" viewBox="0 0 180 180">
+    <path d="M44 145v-8c0-24 18-40 46-40s46 16 46 40v8"/>
+    <circle cx="90" cy="58" r="25"/>
+    <path d="M61 133h58m-40-37 11 20 11-20m-11 20v17"/>
+    <path d="M33 59h25m-12-12v25m93-13h9"/>
+  </symbol>
+  <symbol id="robotic" viewBox="0 0 180 180">
+    <path d="M34 145h112m-95 0v-21l22-18 17 8 22-33 20 9 14-21"/>
+    <circle cx="115" cy="81" r="10"/><circle cx="132" cy="69" r="8"/><circle cx="73" cy="106" r="9"/>
+    <path d="m136 62 12-14m-95 76 9 21m44-59 8 18m-29-81v20m-10-10h20"/>
+  </symbol>
+  <symbol id="endoscopy" viewBox="0 0 180 180">
+    <path d="m49 35 81 81-18 18-81-81a13 13 0 0 1 18-18Z"/>
+    <path d="m111 116 15-15m-38-38 20-20m18 73 18 18m-71-71 15-15"/>
+    <circle cx="139" cy="138" r="10"/>
+  </symbol>
+  <symbol id="pediatric" viewBox="0 0 180 180">
+    <circle cx="68" cy="64" r="22"/><circle cx="120" cy="83" r="17"/>
+    <path d="M29 145v-10c0-23 16-39 39-39s39 16 39 39v10m-9-33c6-11 14-16 22-16 18 0 30 14 30 33v16"/>
+    <path d="M55 60h1m24 0h1m31 21h1m19 0h1M57 75c6 6 15 6 21 0"/>
+  </symbol>
+  <symbol id="reconstructive" viewBox="0 0 180 180">
+    <path d="M37 50h41v31h24V50h41v41h-29v25h29v38h-41v-26H78v26H37v-41h26V91H37Z"/>
+    <path d="m65 66 8 8 14-17m28 46 8 8 14-17"/>
+  </symbol>
+  <symbol id="implant" viewBox="0 0 180 180">
+    <path d="M47 54h86v20H47zM57 74v53a16 16 0 0 0 16 16h34a16 16 0 0 0 16-16V74"/>
+    <path d="M90 39v15m-18 39h36m-18-1v40m-13-39v18a13 13 0 0 0 26 0V92"/>
+    <circle cx="90" cy="39" r="8"/>
+  </symbol>
+  <symbol id="oncology" viewBox="0 0 180 180">
+    <circle cx="90" cy="90" r="43"/><circle cx="90" cy="90" r="18"/>
+    <path d="m90 28 7 11-7 8-7-8Zm0 105 7 11-7 8-7-8ZM28 90l11-7 8 7-8 7Zm105 0 11-7 8 7-8 7ZM46 46l13 3 3 13-13-3Zm72 72 13 3 3 13-13-3Zm0-72-3 13-13 3 3-13ZM46 134l3-13 13-3-3 13Z"/>
+  </symbol>
+  <symbol id="pcnl" viewBox="0 0 180 180">
+    <path d="M95 31c-19-10-39 0-43 20-3 13 4 22 0 34-6 16-22 20-16 40 6 22 32 27 46 12 10-10 7-23 12-33 5 10 2 23 12 33 14 15 40 10 46-12 6-20-10-24-16-40-4-12 3-21 0-34-4-20-24-30-41-20Z"/>
+    <path d="m137 29-34 48m23-56 22 15-11 14-22-15Z"/>
+    <path d="M103 77c-12 1-19 7-25 16m25-16c11 1 18 7 24 16"/>
+  </symbol>
+  <symbol id="calendar" viewBox="0 0 180 180">
+    <rect x="36" y="46" width="108" height="96" rx="12"/><path d="M58 34v25m64-25v25M37 72h106"/>
+    <path d="M59 93h10m20 0h10m20 0h1M59 115h10m20 0h10"/>
+    <path d="m78 104 8 8 16-17"/>
+  </symbol>
+  <symbol id="clinic" viewBox="0 0 180 180">
+    <path d="M38 147V61l52-27 52 27v86H38Z"/>
+    <path d="M69 147v-34h42v34m-21-94v32m-16-16h32"/>
+    <path d="M51 78h12m54 0h12M51 98h12m54 0h12"/>
+  </symbol>
+  <symbol id="treatments" viewBox="0 0 180 180">
+    <rect x="35" y="42" width="110" height="96" rx="16"/>
+    <path d="M90 62v56m-28-28h56"/>
+    <circle cx="90" cy="90" r="27"/>
+  </symbol>
+</svg>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#082b55">
+  <meta name="description" content="Request an adult or paediatric urology appointment at Iqra Medical Complex or Farooq Hospital. Call 0312-4165202.">
+  <title>Request an Appointment | Dr. Muhammad Fayyaz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="site-enhancements.css">
+  <script src="site.js" defer></script>
+</head>
+<body class="inner-page">
+  <div class="topbar"><div class="wrap topbar-inner"><div class="top-items"><a class="top-item" href="tel:+923124165202">Appointments: 0312-4165202</a><span class="top-item top-item-location">Iqra Medical Complex · Farooq Hospital</span></div></div></div>
+  <header class="wrap main-nav"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">MF</span><span><span class="brand-name">Dr. Muhammad Fayyaz</span><span class="brand-caption">Urology &amp; patient care</span></span></a><nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="treatments.html">Treatments / Expertise</a><a href="contact.html">Contact</a><a href="booking.html" aria-current="page">Appointment booking</a><a class="nav-cta" href="#booking-form">Request an appointment</a></nav><details class="mobile-nav"><summary>Menu</summary><nav class="mobile-menu" aria-label="Mobile navigation"><a href="index.html">Home</a><a href="treatments.html">Treatments / Expertise</a><a href="contact.html">Contact</a><a href="booking.html" aria-current="page">Appointment booking</a></nav></details></header>
+  <main>
+    <section class="page-hero"><div class="wrap page-hero-layout"><div class="page-hero-copy"><div class="breadcrumb"><a href="index.html">Home</a> / Appointment booking</div><span class="eyebrow">Adult &amp; paediatric urology</span><h1>Request an appointment</h1><p class="page-hero-urdu" lang="ur" dir="rtl">اپائنٹمنٹ کی درخواست</p><p>Choose your preferred hospital and an available date. Sending this request does not confirm an appointment; the clinic team will contact you to confirm availability.</p></div><div class="page-hero-visual"><svg role="img" aria-label="Appointment calendar illustration"><use href="medical-illustrations.svg#calendar"></use></svg><span class="hero-visual-note">Appointment request</span></div></div></section>
+    <section class="section appointment"><div class="wrap appointment-layout">
+      <div class="appointment-copy"><span class="section-kicker">Clinic schedules · کلینک کے اوقات</span><h2>Choose where to visit</h2><p>Appointment windows below are the clinic hours provided by the practice. No street addresses or additional hours are listed.</p><div class="clinic-facts"><div class="fact"><span class="fact-mark" aria-hidden="true">+</span><span><strong>Iqra Medical Complex — Unit One</strong><span class="fact-urdu" lang="ur" dir="rtl">اقراء میڈیکل کمپلیکس — یونٹ ون</span><span>Monday to Saturday<br>6:00 PM to 9:00 PM</span></span></div><div class="fact"><span class="fact-mark" aria-hidden="true">+</span><span><strong>Farooq Hospital — DHA</strong><span class="fact-urdu" lang="ur" dir="rtl">فاروق ہسپتال — ڈی ایچ اے</span><span>Tuesday and Thursday<br>3:00 PM to 5:00 PM</span></span></div><div class="fact"><span class="fact-mark" aria-hidden="true">+</span><span><strong>Farooq Hospital — Allama Iqbal Town</strong><span class="fact-urdu" lang="ur" dir="rtl">فاروق ہسپتال — علامہ اقبال ٹاؤن</span><span>Monday, Wednesday and Saturday<br>3:00 PM to 5:00 PM</span></span></div></div><p>Prefer to call? <a href="tel:+923124165202">0312-4165202</a></p></div>
+      <form class="form-panel" id="booking-form" data-appointment-form>
+        <h2>Appointment details</h2>
+        <div class="form-grid">
+          <div class="field field-full"><label for="patient-name">Patient full name</label><input id="patient-name" name="name" type="text" autocomplete="name" minlength="2" maxlength="100" required></div>
+          <div class="field field-full"><label for="patient-phone">Phone number</label><input id="patient-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" pattern="[\+\(\)0-9\s\-]{7,20}" title="Enter a phone number using 7 to 20 digits, spaces, or + ( ) -" required></div>
+          <div class="field field-full"><label for="clinic">Preferred hospital</label><select id="clinic" name="clinic" required><option value="" selected disabled>Select a hospital</option><option value="iqra-unit-one">Iqra Medical Complex — Unit One</option><option value="farooq-dha">Farooq Hospital — DHA</option><option value="farooq-allama-iqbal-town">Farooq Hospital — Allama Iqbal Town</option></select></div>
+          <div class="field"><label for="appointment-date">Preferred date</label><input id="appointment-date" name="date" type="date" required></div>
+          <div class="field"><label for="appointment-time">Consultation window</label><select id="appointment-time" name="time" required><option value="" selected disabled>Select a date and hospital first</option></select></div>
+          <div class="field field-full field-consent"><input id="patient-consent" name="consent" type="checkbox" required><label for="patient-consent">I agree that the clinic may use my name, phone number, and preferred appointment details to respond to this request. I understand this request is not a confirmed appointment.</label></div>
+          <div class="honeypot" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        </div>
+        <button class="button button-primary form-submit" type="submit">Send appointment request <span aria-hidden="true">&#8594;</span></button>
+        <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+        <p class="privacy-note">Please do not include symptoms, diagnoses, or other sensitive medical details in this form. For urgent medical needs, contact local emergency services. The clinic will confirm the appointment separately.</p>
+      </form>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="wrap"><div class="footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">MF</span><span><span class="brand-name">Dr. Muhammad Fayyaz</span><span class="brand-caption">FCPS Urology (SIUT Karachi)</span></span></a><p class="footer-about">Adult and paediatric urology consultations.</p></div><div><h3>Quick links</h3><div class="footer-links"><a href="index.html">Home</a><a href="treatments.html">Treatments &amp; expertise</a><a href="contact.html">Contact</a></div></div><div><h3>Appointments</h3><a href="tel:+923124165202">0312-4165202</a><p><a href="mailto:bilal.smm007@gmail.com">bilal.smm007@gmail.com</a></p></div><div><h3>Clinic hours</h3><p>Iqra Medical Complex — Unit One<br>Mon–Sat, 6:00 PM–9:00 PM</p><p>Farooq Hospital — DHA<br>Tue &amp; Thu, 3:00 PM–5:00 PM</p><p>Farooq Hospital — Allama Iqbal Town<br>Mon, Wed &amp; Sat, 3:00 PM–5:00 PM</p></div></div><div class="footer-bottom"><span>© 2026 Dr. Muhammad Fayyaz.</span><span>Requests are subject to clinic confirmation.</span></div></div></footer>
+</body>
+</html>
